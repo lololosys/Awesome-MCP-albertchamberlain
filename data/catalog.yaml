@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-09-24"
+  updated: "2026-11-06"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: jobspipe
+    name: JobsPipe
+    kind: server
+    category: data
+    url: https://docs.jobspipe.dev/ai-agents/mcp
+    description: Remote MCP for searching live job listings across 30+ ATS feeds and boards, normalized to one schema.
+    transport: [remote]
+    official: false
+    tags: [jobs, search, ats, recruiting, remote]
